@@ -1690,7 +1690,7 @@
   }
 
   .container-2lgZY8::after {
-    content: "Stay comfy ❤";
+    content: "";
     position: fixed;
     top: 220px;
     bottom: 85px;
@@ -1706,18 +1706,6 @@
     color: var(--text-normal);
     border-radius: var(--border-radius);
     overflow: hidden;
-  }
-
-  .container-2lgZY8::before {
-    content: "";
-    position: fixed;
-    top: 220px;
-    bottom: 85px;
-    right: 70px;
-    z-index: -1;
-    width: 300px;
-    border-radius: var(--border-radius);
-    background: var(--jumping-gif) bottom/40% no-repeat;
   }
 
   .guilds-1SWlCJ + :nth-child(2) {
