@@ -1,1 +1,0 @@
-# dynamitegus.github.io
