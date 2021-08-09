@@ -7,8 +7,6 @@
 	background-size: cover !important;
 	background-position: center !important;
 }
-html { background-color: var(#203680); }
-
 :root {
   --background-tertiary-alt: #000000;
   --border-radius: 0px;
