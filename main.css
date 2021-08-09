@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 
+ #app-mount {
+	background: var(--dplus-background) !important;
+	background-size: cover !important;
+	background-position: center !important;
+}
+html { background-color: var(--dplus-accent-ui); }
+
 :root {
   --background-tertiary-alt: #000000;
   --border-radius: 0px;
