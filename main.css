@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 --dplus-background: url(https://i.imgur.com/3AiL3yN.png);
-
+--dplus-spacing-ui: 10px;
+--dplus-radius-ui: 10px;
  #app-mount {
 	background: var(https://i.redd.it/svaxriomg5w61.png) !important;
 	background-size: cover !important;
@@ -629,7 +630,8 @@
   background-repeat: repeat-x;
 }
 :root .layout-2DM8Md {
-  border-radius: var(--border-radius);
+	padding: 0 calc(var(--dplus-spacing-ui) / 2) !important;
+	border-radius: var(--dplus-radius-ui);
 }
 :root .userPopout-3XzG_A {
   width: unset !important;
