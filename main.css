@@ -7,6 +7,7 @@
 	background: var(https://i.redd.it/svaxriomg5w61.png) !important;
 	background-size: cover !important;
 	background-position: center !important;
+html { background-color: var(--dplus-accent-ui); }
 }
 :root {
   --background-tertiary-alt: #000000;
