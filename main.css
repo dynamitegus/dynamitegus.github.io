@@ -9,7 +9,7 @@
 }
 :root {
   --background-tertiary-alt: #000000;
-  --border-radius: 0px;
+  --border-radius: 20px;
   --playing: #8ea6fc;
   --spotify: #5fce86;
   --streaming: #9b77da;
