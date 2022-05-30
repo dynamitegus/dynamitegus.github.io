@@ -1,8 +1,21 @@
 body {
-  background-color: lightgreen;
+  background-color: black;
 }
 
 h1 {
   color: magenta;
   margin-left: 73px;
+  font-family: Ubuntu;
+}
+h2 {
+  color: white;
+  font-family: Ubuntu;
+}
+h3 {
+  color: white;
+  font-family: Ubuntu;
+}
+p {
+  color: white;
+  font-family: Ubuntu;
 }
