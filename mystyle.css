@@ -22,5 +22,5 @@ p {
 a { 
   background-color: white; 
   color: black;
-  font-family: Ubuntu Mono;
+  font-family: 'Ubuntu Mono', monospace;
 }
