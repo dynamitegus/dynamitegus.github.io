@@ -1,3 +1,5 @@
 # dynamitegus.github.io
 ## is website repo
-## dynamitegus.tk
+## dynamitegus.org
+### changed form dynamitegus.tk to .org :)
+
