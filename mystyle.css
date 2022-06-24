@@ -22,8 +22,7 @@ p {
   font-family: Ubuntu;
 }
 a { 
-  background-color: #111111; 
-  color: #5c5c5c;
+  color: #858585;
   font-family: 'Ubuntu Mono', monospace;
 }
 .sidenav {
@@ -40,11 +39,23 @@ a {
 .sidenav a {
   text-decoration: none;
   display: grid;
+  background-color: #111111; 
+  color: #5c5c5c;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .sidenav a:hover {
   color: #818181;
+}
+.search {
+  bottom: 10px; /*bottom aligned*/
+  
 }
 .main {
   margin-left: 265px;
   padding: 0px 10px;
 }
+#bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 7px;
+  }
