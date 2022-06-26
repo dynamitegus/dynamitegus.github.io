@@ -6,6 +6,16 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="mystyle.css">
     <meta name="comments" content="https://www.w3schools.com/jsref/met_win_setinterval.asp this is the page i am using to get this to work">
+    <script>
+        var x = ['♪┌|∵|┘♪', '♪└|∵|┐♪']
+        var q = 0
+        function dance() {
+          document.getElementById("demo").innerHTML = x[q];
+          if (q == 0) {q = 1} else {q = 0}
+        }
+        setInterval(dance, 500);
+       // Angus can't code for shit made by y124 xzvc.tk
+    </script>
 </head>
 <body>
 <div class="sidenav">
@@ -29,23 +39,8 @@
     <a href="https://xzvc.tk">|------------xzvc.tk------------|</a>
 </div>
 <div class="main">
-    <h1>♪┌|∵|┘♪</h1>
-    <h3>he danc</h3>
-
-    <p id="demo"></p>    
+    <h1 id="demo">♪┌|∵|┘♪</h1>
+    <h3>he danc</h3> 
 </div>
-
 </body>
-<html>
-    <script>
-        myInterval = setInterval(setColor, 500);
-         
-        function setColor() {
-          let x = document.getElementById("demo");
-          x.innerHTML = innerHTML == "a" ? "b" : "a";
-        }
-         
-        function stopColor() {
-          clearInterval(myInterval);
-        }
-        </script>
+</html>
