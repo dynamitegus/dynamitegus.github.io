@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>testing</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+   <!--Navigation bar-->
+   <div id="nav-placeholder">
+
+</div>
+
+<script>
+   $.get("https://dynamitegus.org/sidenav.html", function(data){
+       $("#nav-placeholder").replaceWith(data);
+   });
+   </script>
+<!--end of Navigation bar-->
+<div class="main">
+    <div id="shadowBox">
+        <h3 class="rainbow rainbow_text_animated">COMING SOON</h3>
+    </div>
+</div>
+</body>
+<html>
