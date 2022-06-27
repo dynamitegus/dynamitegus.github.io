@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="mystyle.css">
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
 		<style>
 			html,body {
 				height: 100%;
@@ -26,6 +29,19 @@
 		</style>
     </head>
     <body>
+           <!--Navigation bar-->
+		   <div id="nav-placeholder">
+
+		</div>
+		
+		<script>
+		   $.get("https://dynamitegus.org/sidenav.html", function(data){
+			   $("#nav-placeholder").replaceWith(data);
+		   });
+		   </script>
+		<!--end of Navigation bar-->
+		
+		<div class="main">
 		<div class="wrapper">
 			<h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?<br></h1>
                         <h2>Scroll down</h2>
@@ -73,7 +89,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 				</pre>
 			</div>
 		</div>
-
+</div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script>
 			$(window).scroll(function () {

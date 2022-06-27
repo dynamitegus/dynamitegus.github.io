@@ -1,5 +1,26 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>exampleforhourofcode</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="/mystyle.css">
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+       </head>
+    </head>
     <body>
+           <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+   $.get("https://dynamitegus.org/sidenav.html", function(data){
+       $("#nav-placeholder").replaceWith(data);
+   });
+   </script>
+<!--end of Navigation bar-->
+<div class="main">
         <h1>funfact i am actually a person</h1>
         <h2>i also have a name</h2>
         <p>i am going to plug my own website</p>
@@ -7,5 +28,6 @@
         <p>i need an image</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmfEzhjMGxl3eEGc6k8d_xOL0RD1cxl0Oqw&usqp=CAU" alt="smile" width="150px">
         <p>there you go</p>
+        </div>
     </body>
 </html>
