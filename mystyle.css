@@ -21,6 +21,11 @@ p {
   color: white;
   font-family: Ubuntu;
 }
+p.nmp {
+  margin: 0;
+  padding: 0;
+}
+
 a { 
   color: #858585;
   font-family: 'Ubuntu Mono', monospace;
@@ -96,4 +101,17 @@ a {
   50% {
       background-position: 100% 0;
   }
+}
+.card {
+  background-color: #212121;
+  color: #ffffff;
+  padding: 1% 1% 1% 1%;
+
+}
+.notcard {
+  background-color: #000000;
+}
+
+hr.cspc {
+border: #000000;
 }
