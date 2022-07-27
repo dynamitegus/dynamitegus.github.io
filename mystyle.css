@@ -29,6 +29,9 @@ a {
   color: #858585;
   font-family: 'Ubuntu Mono', monospace;
 }
+a.undo {
+  display:inline!important;
+}
 a br {
   content: " ";
   display: block;
