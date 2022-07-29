@@ -122,3 +122,22 @@ a br {
 hr.cspc {
 border: #000000;
 }
+.credit {
+  text-align: center!important;
+  display:inline;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+}
+.credit p {
+  color: #818181;
+}
+@media only screen and (max-height: 900px) {
+  .main {
+    margin-left: 300px;
+    padding: 0px 10px;
+  }
+  .sidenav {
+    width: 300px;
+  }
+}
