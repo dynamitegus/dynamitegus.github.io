@@ -59,12 +59,47 @@ a br {
 .sidenav a:hover {
   color: #818181;
 }
+
+.fancysidenav {
+  display:inline;
+  width: 100%;
+  height: moz-available;
+  height: webkit-fill-available;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #111111;
+}
+.fancysidenav a {
+  text-align: center;
+  margin: 2px;
+  border-width: 2px;
+  border-style:solid;
+  border-color: #0d0d0d;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #111111; 
+  color: #5c5c5c;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.fancysidenav a:hover {
+  color: #818181;
+}
+.fancysidenav h3 {
+  display:inline;
+}
+
+
 .search {
   bottom: 10px; /*bottom aligned*/
   
 }
 .main {
-  margin-left: 265px;
+  margin-top: 265px;
   padding: 0px 10px;
 }
 #bottom {
