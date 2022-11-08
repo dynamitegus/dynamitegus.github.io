@@ -1,42 +1,106 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 h1 {
   color: magenta;
   font-family: Ubuntu;
 }
+
 h2 {
   font-family: Ubuntu;
 }
+
 h3 {
   font-family: Ubuntu;
 }
+
 p {
   font-family: Ubuntu;
 }
+
 li a {
   font-family: 'Ubuntu Mono', monospace;
 }
+
 .rainbow {
   text-align: center;
   text-decoration: underline;
   font-family: monospace;
 }
+
 .rainbow_text_animated {
-  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+  background: linear-gradient(to right,
+   #f00,
+   #ff0, 
+   #0f0, 
+   #0ff, 
+   #00f, 
+   #f0f, 
+   #f00, 
+   #f0f, 
+   #00f, 
+   #0ff, 
+   #0f0, 
+   #ff0, 
+   #f00);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: rainbow_animation 6s ease-in-out infinite;
+  animation: rainbow_animation 6s linear infinite;
   background-size: 400% 100%;
 }
 
 @keyframes rainbow_animation {
-  0%,100% {
-      background-position: 0 0;
+
+  0%,
+  100% {
+    background-position: 0 0;
   }
 
   50% {
-      background-position: 100% 0;
+    background-position: 100% 0;
   }
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+
+}
+
+.navbar-nav>li {
+  margin-left: .125vw;
+  margin-right: .125vw;
+}
+
+ul .dropdown-menu {
+  background-color: black;
+  border-color: #ff00ff !important;
+}
+
+li .dropdown-item {
+  color: white;
+  background-color: black !important;
+}
+
+li .dropdown-item:hover {
+  background-color: #1b1b1b !important;
+}
+
+a.nav-link:hover {
+  background-color: #ffffff09 !important;
+}
+
+.main {
+  margin-top: 72px !important;
+  margin-left: 3vw;
+}
+
+.thatonenav {
+  height: 72px;
+  background-color: black;
 }
