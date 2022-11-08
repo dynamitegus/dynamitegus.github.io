@@ -14,7 +14,13 @@ h2 {
 h3 {
   font-family: Ubuntu;
 }
-
+.main a { 
+  color: #858585;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.main a:hover {
+  color: #aaaaaa;
+}
 p {
   font-family: Ubuntu;
 }
