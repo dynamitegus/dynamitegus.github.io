@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DynamiteBlog</title>
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="text-white">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $.get("/sidenav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div class="main text-white">
+        <h1 style="font-family:'Ubuntu'">Ardunio Synth</h1>
+        <br>
+        this is the page for my arduino synth.<br>
+        if it looks unfinishedd thats bc it is and ill formst it later(i probably wont lets be real)<br>
+        <br>
+        i started by using https://github.com/FortySevenEffects/arduino_midi_library<br>
+        or atleast trying to, i then found an offical one so ill start by using that<br>
+        https://playground.arduino.cc/Main/MIDILibrary/<br>
+        i can start with the MIDIUSB_buzzer.ino sketch as that will give me somethign to go off of,<br>
+        the only prblem is that there is no obvious pinout out for the midi connector,<br>
+        but seeing as it only defines one pin up the top of the sketch im assuming that it uses the tx and rx pins on the serial line.<br>
+        https://docs.arduino.cc/built-in-examples/communication/Midi<br>
+        on this page it has a fitzig(?) diagram so ill base it off that and the midi documentation https://www.midi.org/specifications/item/midi-din-electrical-specification<br>
+        <br>
+        <br>
+    i just had dinner, so its geen an hour of not doing this, but anyway, after looking at thhe code from the buzzer ino it occurs to me that it might not use a traditional midi port at all, let me explain<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    as you may or may not already know, there are actually a few different types types of midi connections<br>
+    there are as far as i understand, 2 different types, well technically only one<br>
+    first we have the traditional 5 pin din connector [[insert image here]], and the "2nd" version which is midi over usb<br>
+    and as arduinos can act as a usb device using the serial interface, thats probably what they are using. i wouldve liked to use the din connector but that doesnt seem like something i can do atm<br>
+    <br>
+i just plugged in my arduino leonardo(freetronics leostick) and i completel forgot i had a rickroll script on there. anyway<br>
+
+im getting this error from compiling and atm i am to lazy to fix and ill do it tmr<br>
+<br>
+Connecting to programmer: .<br>
+Found programmer: Id = "CATERIN"; type = S<br>
+    Software Version = 1.0; No Hardware Version given.<br>
+Programmer supports auto addr increment.<br>
+Programmer supports buffered memory access with buffersize=128 bytes.<br>
+<br>
+Programmer supports the following devices:<br>
+    Device code: 0x44<br>
+    <br>
+
+    so yeah as of 5 of april 2023 im signing off
+    </div>
+
+</body>
+
+</html>
