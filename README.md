@@ -1,5 +1,5 @@
 # dynamitegus.github.io
-## is website repo
+## is old website repo
 ## dynamitegus.org
-### changed form dynamitegus.tk to .org :)
+
 
