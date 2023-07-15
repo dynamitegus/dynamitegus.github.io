@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>About Me</title>
+   <link rel="stylesheet" href="/old/mystyle.css">
+   <script src="https://code.jquery.com/jquery.min.js"></script>
+   <link rel="icon" type="image/x-icon" href="/old/favicon.ico">
+</head>
+
+<body>
+   <!--Navigation bar-->
+   <div id="nav-placeholder">
+
+   </div>
+
+   <script>
+      $.get("https://dynamitegus.org/old/sidenav.html", function (data) {
+         $("#nav-placeholder").replaceWith(data);
+      });
+   </script>
+   <!--end of Navigation bar-->
+   <div class="main">
+      <h1>About Me<br></h1>
+      <p>Hi, I am DynamiteGus, a teenager from a little place called earth. You may of heard of it.<br>
+         I am a budding Programmer that doesnt really know what they are doing and I am interested in computers and
+         other electronics. <br>
+         I play a lot of minecraft among other games, and I use Ubuntu 22.04 LTS on my laptop and I love linux<br>
+         <br>
+         <i>what else does this need, pronouns and that sort??</i><br>
+         If you really care, I dont mind what pronouns you use as long as they are either he/him, she/her or
+         they/them.<br>
+         Also if you care idk what sexuality I am yet.
+      </p>
+      <h3>Contact:</h3>
+      <h1><span style="color:red">Enjoy the Chaos! :)</span></h1>
+   </div>
+</body>
+
+</html>

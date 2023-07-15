@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>he danc</title>
+    <link rel="icon" type="image/x-icon" href="/old/favicon.ico">
+    <link rel="stylesheet" href="/old/mystyle.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script>
+        var x = ['♪┌|∵|┘♪', '♪└|∵|┐♪']
+        var q = 0
+        function dance() {
+          document.getElementById("demo").innerHTML = x[q];
+          if (q == 0) {q = 1} else {q = 0}
+        }
+        setInterval(dance, 500);
+       // Angus can't code for shit made by y124 xzvc.tk
+    </script>
+</head>
+<body>
+   <!--Navigation bar-->
+   <div id="nav-placeholder">
+
+</div>
+
+<script>
+   $.get("/old/sidenav.html", function(data){
+       $("#nav-placeholder").replaceWith(data);
+   });
+   </script>
+<!--end of Navigation bar-->
+<div class="main">
+    <h1 id="demo">♪┌|∵|┘♪</h1>
+    <h3>he danc</h3> 
+</div>
+</body>
+</html>
